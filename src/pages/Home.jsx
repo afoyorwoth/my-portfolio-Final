@@ -1,5 +1,4 @@
-
-import patriciaPhoto from "../assets/patricia.png";
+import patriciaPhoto from "../assets/patricia.webp";
 
 function Home() {
   return (
@@ -7,8 +6,7 @@ function Home() {
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] items-center gap-4 md:gap-6">
 
         <div className="max-w-3xl">
-          <p className="text-brand-gold uppercase tracking-[0.3em] text-sm font-semibold mb-6">
-            Welcome to my portfolio
+         <p className="text-[#80602F] uppercase tracking-[0.3em] text-sm font-semibold mb-6">
           </p>
 
           <h1 className="font-heading text-5xl md:text-7xl text-brand-dark dark:text-brand-lighttext leading-tight mb-6">
