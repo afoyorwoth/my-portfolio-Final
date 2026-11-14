@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-brand-cream text-brand-dark font-body;
+}
+
+.dark body {
+  background-color: #1F1B1D;
+  color: #F5EDE8;
+}
+
+.dark #root > div {
+  background-color: #1F1B1D;
+  color: #F5EDE8;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark #root {
+  color: #F5EDE8;
+}
+
+.dark #root h1,
+.dark #root h2,
+.dark #root h3,
+.dark #root p,
+.dark #root label {
+  color: #F5EDE8;
+}
+
+.dark nav a {
+  color: #F5EDE8;
+}
+
+.dark nav a:hover {
+  color: #C6A46A;
+}
